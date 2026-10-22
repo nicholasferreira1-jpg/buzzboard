@@ -1,0 +1,55 @@
+/* Header.css */
+.post-badge {
+  background-color: #ff4757;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  margin-left: 10px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.app-header {
+  background: white;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0 20px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #262626;
+}
+
+.nav-link:hover {
+  color: #0095f6;
+}
+
+.post-btn {
+  background: #0095f6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.post-btn:hover {
+  background: #0086e0;
+}
